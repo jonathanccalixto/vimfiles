@@ -10,7 +10,7 @@ else
   set background=dark
 endif
 
-colorscheme solarized
+"colorscheme solarized
 
 " style
 set number
@@ -152,3 +152,5 @@ map <Leader>r :call Rename()<CR>
 
 " load the plugin and indent settings for the detected filetype
 filetype plugin indent on
+
+let g:netrw_banner = 1
